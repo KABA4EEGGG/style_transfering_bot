@@ -157,11 +157,11 @@ async def processing(message: types.Message, state: FSMContext):
     global style_flag
 
     if message.text == 'Bad':
-        image_size = 128
+        image_size = 250
     elif message.text == 'Medium':
-        image_size = 256
+        image_size = 350
     else:
-        image_size = 300
+        image_size = 400
     await message.answer(text='Style transferring starts.\n'
                               'Wait some time...',
                          reply_markup=types.ReplyKeyboardRemove())

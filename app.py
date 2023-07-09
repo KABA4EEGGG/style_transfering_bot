@@ -43,7 +43,7 @@ def transform(content_root, style_root, im_size):
     content_image = Variable(preprocess_batch(content_image))
     style_model.setTarget(style_v)
     output = style_model(content_image)
-    tensor_save_bgrimg(output.data[0], 'result' + user_id + '.jpg', False)
+    tensor_save_bgrimg(output.data[-1], 'result' + user_id + '.jpg', False)
 
     # Clear the RAM.
     del content_image

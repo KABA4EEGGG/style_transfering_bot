@@ -6,5 +6,5 @@ The neural network I used [MSG-net](https://github.com/zhanghang1989/PyTorch-Mul
 ## Examples of work
 | Content image      | Style image | Result image     |
 | :---        |    :----:   |          ---: |
-| ![cat](/examples/cat.jpg "Cat")    | ![van Gogh](/examples/van_Gogh.jpg "van Gogh")        | ![result 1](/examples/result_1.jpg "result 1")   |
-| ![dog](/examples/dog.jpg "Dog")    | ![The_Scream](/examples/van_Gogh.jpg "The_Scream")        | ![result 2](/examples/result_2.jpg "result 2")   |
+| ![cat](/examples/cat.jpg "Cat")    |  ![The_Scream](/examples/van_Gogh.jpg "The_Scream")        | ![result 1](/examples/result_1.jpg "result 1")   |
+| ![dog](/examples/dog.jpg "Dog")    | ![van Gogh](/examples/van_Gogh.jpg "van Gogh")       | ![result 2](/examples/result_2.jpg "result 2")   |
